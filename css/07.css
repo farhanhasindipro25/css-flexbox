@@ -1,0 +1,53 @@
+/* align-items: Aligns items in the cross axis (Vertically)  */
+#container-7{
+    background: #555;
+    display: flex;
+    height: 200px;
+    justify-content: baseline;
+    align-items: baseline;
+}
+
+#container-8{
+    background: #555;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+#container-9{
+    background: #555;
+    display: flex;
+    height: 200px;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+#container-10{
+    background: #555;
+    display: flex;
+    height: 200px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#container-11{
+    background: #555;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: stretch;
+}
+#container-12{
+    background: #555;
+    display: flex;
+    height: 200px;
+    justify-content: space-evenly;
+}
+
+
+.item {
+    background: #f4f4f4;
+    border: #ccc solid 1px;
+    text-align: center;
+    padding: 1rem;
+    margin: 0.5rem;
+    flex-basis: 100px;
+}
